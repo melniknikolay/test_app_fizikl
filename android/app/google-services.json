@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "789966386358",
+    "project_id": "test-pod-c787c",
+    "storage_bucket": "test-pod-c787c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:789966386358:android:3743fc10a9f33a29a86217",
+        "android_client_info": {
+          "package_name": "com.test.test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "789966386358-qptp76obickke2po7bil7kqm9ad0s5qt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxTfOZTKJmP0yiZsgNRywKd0OVQknJuvc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "789966386358-qptp76obickke2po7bil7kqm9ad0s5qt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
