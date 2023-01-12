@@ -13,7 +13,7 @@
 	Картинка №2 “Ошибка” https://skr.sh/sDdzJXaVrly
 
 ### Решение:
-![test_app_fizikl_done](https://user-images.githubusercontent.com/52530890/212065469-59c05b98-7742-4cc2-97d8-53df0623e7f2.gif | width=100)
+![test_app_fizikl_done](https://user-images.githubusercontent.com/52530890/212065469-59c05b98-7742-4cc2-97d8-53df0623e7f2.gif)
 
 Для авторизации использовал Firebase Auth, state-manager - Bloc, кеширование изображений реализовал с помощью cached_network_image. 
 #### Используемые пакеты:
