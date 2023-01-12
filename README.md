@@ -1,16 +1,37 @@
 # test_app_fizikl
 
-A new Flutter project.
+# Тестовое задание
+### ТЗ:
+Написать приложение “Авторизация”. 
+Пользователь должен иметь возможность авторизоваться 
+(выполнить вход или регистрацию в сервисе). 
+После успешной авторизации показываем пользователю экран с картинкой №1. 
+Если “что-то пошло не так” и авторизоваться не удалось, то уведомляем пользователя о возникшей ошибке показываем экран с картинкой №2.
 
-## Getting Started
+Приложения:
+	Картинка №1 “Успешная авторизация” https://skr.sh/sDdxnoyYOGB
+	Картинка №2 “Ошибка” https://skr.sh/sDdzJXaVrly
 
-This project is a starting point for a Flutter application.
+### Решение:
+![test_app_fizikl_done](https://user-images.githubusercontent.com/52530890/212065469-59c05b98-7742-4cc2-97d8-53df0623e7f2.gif)
 
-A few resources to get you started if this is your first Flutter project:
+Для авторизации использовал Firebase Auth, state-manager - Bloc, кеширование изображений реализовал с помощью cached_network_image. 
+#### Используемые пакеты:
+  firebase_core: ^2.4.1
+  firebase_auth: ^4.2.5
+  equatable: ^2.0.5
+  flutter_bloc: ^8.1.1
+  bloc: ^8.1.0
+  meta: ^1.8.0
+  cached_network_image: ^3.2.3
+  email_validator: ^2.1.17
+  firebase_auth_mocks: ^0.10.3
+  integration_test:
+    sdk: flutter
+  bloc_test: ^9.1.0
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+#### Тестирование:
+ - Интеграционные тесты: покрыл тестами сценарии авторизации, регистрации и выхода.
+ - bloc_test: покрыл тестами AuthBloc
+	
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
