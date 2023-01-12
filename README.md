@@ -13,22 +13,22 @@
 	Картинка №2 “Ошибка” https://skr.sh/sDdzJXaVrly
 
 ### Решение:
-![test_app_fizikl_done](https://user-images.githubusercontent.com/52530890/212065469-59c05b98-7742-4cc2-97d8-53df0623e7f2.gif)
+![test_app_fizikl_done](https://user-images.githubusercontent.com/52530890/212065469-59c05b98-7742-4cc2-97d8-53df0623e7f2.gif =250x)
 
 Для авторизации использовал Firebase Auth, state-manager - Bloc, кеширование изображений реализовал с помощью cached_network_image. 
 #### Используемые пакеты:
-  firebase_core: ^2.4.1
-  firebase_auth: ^4.2.5
-  equatable: ^2.0.5
-  flutter_bloc: ^8.1.1
-  bloc: ^8.1.0
-  meta: ^1.8.0
-  cached_network_image: ^3.2.3
-  email_validator: ^2.1.17
-  firebase_auth_mocks: ^0.10.3
-  integration_test:
-    sdk: flutter
-  bloc_test: ^9.1.0
+  firebase_core: ^2.4.1  
+  firebase_auth: ^4.2.5  
+  equatable: ^2.0.5  
+  flutter_bloc: ^8.1.1  
+  bloc: ^8.1.0  
+  meta: ^1.8.0  
+  cached_network_image: ^3.2.3  
+  email_validator: ^2.1.17  
+  firebase_auth_mocks: ^0.10.3  
+  integration_test:  
+    sdk: flutter  
+  bloc_test: ^9.1.0  
 
 #### Тестирование:
  - Интеграционные тесты: покрыл тестами сценарии авторизации, регистрации и выхода.
